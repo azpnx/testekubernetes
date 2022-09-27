@@ -46,6 +46,10 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
+                    <image>
+			<name>gasbiru/teste-tcc:${project.version}</name>
+		  </image>
+		  <pullPolicy>IF_NOT_PRESENT</pullPolicy>
                 </configuration>
             </plugin>
         </plugins>
